@@ -41,6 +41,27 @@ The model classifies stars into one of the following 6 types:
 
 ---
 
+## 📊 Sample Visualizations
+
+Below are sample analytical charts generated during the data mining process (saved in the `Outputs/` directory):
+
+### Hertzsprung-Russell (HR) Diagram of Classified Stars
+Astronomical chart plotting star luminosity versus surface temperature, highlighting the distinct physical clusters of star types:
+![HR Diagram](Outputs/fig3_hr_diagram.png)
+
+### Feature Correlation Matrix
+Heatmap showing the linear relationships between physical star attributes:
+![Correlation Matrix](Outputs/fig4_correlation.png)
+
+### Machine Learning Model Comparison
+Comparison of Accuracy, Precision, Recall, and F1-Score across KNN, Decision Tree, and Random Forest models:
+![Model Comparison](Outputs/fig8_model_comparison.png)
+
+### Classifier Confusion Matrices
+![Confusion Matrices](Outputs/fig7_confusion_matrices.png)
+
+---
+
 ## 📁 Repository Structure
 
 ```
